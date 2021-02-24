@@ -1,0 +1,188 @@
+html,body{
+width:100%;
+overflow-x:hidden;
+}
+
+
+i.material-icons {
+    font-size: 16px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+
+.top-border{
+    background-color:#FF69B4;
+    color:#FFF;
+    text-align: center;
+}
+span.text{
+    margin-left: 30%;
+}
+.nav-item{
+    padding: 3%;
+    font-size: 18px;
+}
+/* li.first{
+    margin-left: 75%;
+} */
+.carousel-inner > .item {
+    height: 400px;
+ }
+ .carousel-caption{
+    color:#000;
+    text-align:left;
+    top:30%;
+    width:70%;
+    font-weight:bold;
+}
+.carousel .carousel-item{
+    height: 500px;
+
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.btn{
+    background:#FF69B4;
+    color:#FFF;
+}
+.carousel{
+    border-bottom: 5px solid #FF69B4;
+  }
+
+
+  .card-title{
+    margin-top:7%;
+    letter-spacing: 5px;
+    width:50%;
+    margin-left:15%;
+}
+.card-text{
+  margin-left:15%;
+}
+.card-deck{
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.layer-card {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.title1{
+    text-align:center;
+    color:#FF69B4;
+    font-family:'Brush Script MT';
+    font-size: 50px;
+  }
+  .title2{
+    letter-spacing: 5px;
+    text-align:center;
+    font-weight: bold;
+  }
+.nav-link{
+    color: #000;
+    font-weight: bold;
+}
+.price{
+    float:right;
+    font-weight: bold;
+}
+hr.new1 {
+    border-top: 2px dashed #FF69B4;
+  }
+  hr.new2 {
+    border-top: 2px dashed #000;
+  }
+.example{
+    font-weight: bold;
+}
+.card-list{
+    width:60%;
+    float:right;
+    box-shadow: 10px 10px 5px grey;
+}
+.round{
+    background-color:#DCDCDC;
+    border:0;
+}
+.body1{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    clip-path: polygon(70% 45%, 56% 45%, 36% 46%, 25% 46%, 9% 46%, 10% 45%, 12% 66%, 25% 90%, 40% 95%, 60% 95%, 75% 91%, 89% 66%, 90% 45%, 82% 45%);
+  }
+  .round1{
+    background-color:#FFF;
+    border:0;
+}
+.prod{
+    -webkit-box-shadow: 0 0 5px 2px grey;
+    -moz-box-shadow: 0 0 5px 2px grey;
+    box-shadow: 0 0 5px 2px grey;
+}
+.user{
+    text-align:center;
+}
+
+
+@media (max-width: 992px) {
+    .card-list{
+        width:100%;
+    } 
+
+    .layer-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    span.text{
+        margin-left:0%;
+    }
+    li.first{
+        margin-left: 0%;
+    }
+    .card1{
+        float:none;
+    }
+    /* .card-list{
+        float:none;
+        width:80%;
+    } */
+    .card2{
+        margin-top:10%;
+        width:100%;
+    }
+    .card-img-top{
+        width: 100%;
+    }
+    .card-text1{
+        width:50%;
+    }
+    .card-group{
+        width:100%;
+    }
+    .button-row{
+        text-align:justify;
+        margin-left:0;
+    }
+    .card4{
+        margin-top:10%;
+        text-align:center;
+    }
+    .footer{
+        margin-top:5%;
+    }
+}
